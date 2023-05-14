@@ -11,7 +11,7 @@
 
 - 📫 How to reach me **hasharanethmi2020@gmail.com**
 
-- 👨‍ Visit my personal website <a href = "https://hashara-pilapitiya.github.io/Hashara-Pilapitiya/"></a>
+- 👨‍ Visit my personal website <a href = "https://hashara-pilapitiya.github.io/Hashara-Pilapitiya/">Hashara-Pilapitiya</a>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
