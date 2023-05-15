@@ -220,7 +220,7 @@ body.night{
 }
 
 .about-img img{
-    width: 83%;
+    width: 80%;
     height: 90%;
     border-radius: 50%;
 }
@@ -261,5 +261,74 @@ body.night{
 
 .btn{
     margin-top: 20px;
+}
+
+.skill-container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15rem;
+    align-items: center;
+}
+
+.skills-img{
+    width: 80%;
+    padding-left: 10px;
+    object-position: center;
+    margin-left: 20px;
+}
+
+.skills-img img{
+    width: 65%;
+    padding-left: 2px;
+    object-position: center;
+    border: rgb(135, 13, 13) solid 10px;
+    border-radius: 20% 0% 20% 0%;
+}
+
+.bars-box{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    margin-left: 250px;
+}
+
+.bars-box h3, .bar-box span{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.light-bar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background: hsla(0, 80%, 63%, 0.422);
+    border-radius: 0.5rem;
+}
+
+.percent-bar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 10px;
+    background: var(--secondary-color);
+    border-radius: 0.5rem;
+}
+
+.html-bar{
+    width: 95%;
+}
+
+.css-bar{
+    width: 85%;
+}
+
+.js-bar{
+    width: 75%;
 }
 
